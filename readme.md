@@ -36,6 +36,9 @@ solution will be .sql files and for magento extensions it will be installation M
 11. Write a Query to find all the outof stock SKU's
 12. Before doing operations on catalog_product_entity table you need to backup the table. How will you copy the table into another table named catalog_product_entity_backup
 13. Write a query to find out of all the SKU's which have numbers in them. Use Regex
+14. Find bestselling products
+15. Find products that were created more than 6 months ago but have not been ordered yet
+16. Find top 5 customers based on number of orders they have placed
 
 ### Core php
 
@@ -58,5 +61,8 @@ solution will be .sql files and for magento extensions it will be installation M
 6. Write a extension to make shipping price zero if customer_email contains a number.
 7. Write a cron system to send a coupon code to customer on there birthday and wish them happy birthday in email
 8. Create Two extensions. First extension should render a hello world page. You would have to create route,controller, layouts and templates. After your layout is rendered, create second extension that will add your name to Hello world page of the first extension.
+9. Create Magento extension to apply 10 percent discount if customer_id is divisible by 3
+10. Create extension to fullfill following requirement. If the product price is greater than 100rs then non-logged in user should not be able to add that product to cart. Meaning, Only logged in customers should be able to add to cart if product price is greater than 100rs. Show user error message that "You need to log-in for adding any product worth 100Rs or more" In your assignment notes note down cases that you have'nt covered.
+11. 
 
 
